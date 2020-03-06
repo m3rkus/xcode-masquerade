@@ -11,6 +11,7 @@
 		301E0A3B2412B9FE009F8CDF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301E0A3A2412B9FE009F8CDF /* ViewController.swift */; };
 		301E0A3D2412BA01009F8CDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 301E0A3C2412BA01009F8CDF /* Assets.xcassets */; };
 		301E0A402412BA01009F8CDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 301E0A3E2412BA01009F8CDF /* Main.storyboard */; };
+		34FB0259ACD2B707509E05A4 /* Pods_XCodeMasquerade.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F977B878DA1C5290738248 /* Pods_XCodeMasquerade.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,9 @@
 		301E0A3F2412BA01009F8CDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		301E0A412412BA01009F8CDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		301E0A422412BA01009F8CDF /* XCodeMasquerade.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XCodeMasquerade.entitlements; sourceTree = "<group>"; };
+		6AC83C408FC5F7B35928DCD5 /* Pods-XCodeMasquerade.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCodeMasquerade.debug.xcconfig"; path = "Target Support Files/Pods-XCodeMasquerade/Pods-XCodeMasquerade.debug.xcconfig"; sourceTree = "<group>"; };
+		84277BBB0CCA495A9645DE08 /* Pods-XCodeMasquerade.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCodeMasquerade.release.xcconfig"; path = "Target Support Files/Pods-XCodeMasquerade/Pods-XCodeMasquerade.release.xcconfig"; sourceTree = "<group>"; };
+		E9F977B878DA1C5290738248 /* Pods_XCodeMasquerade.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XCodeMasquerade.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,17 +32,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34FB0259ACD2B707509E05A4 /* Pods_XCodeMasquerade.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		213C8FAB9506F07FBD0C151E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9F977B878DA1C5290738248 /* Pods_XCodeMasquerade.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		301E0A2C2412B9FE009F8CDF = {
 			isa = PBXGroup;
 			children = (
 				301E0A372412B9FE009F8CDF /* XCodeMasquerade */,
 				301E0A362412B9FE009F8CDF /* Products */,
+				8E6247ED1DE78C9F7496C3F1 /* Pods */,
+				213C8FAB9506F07FBD0C151E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,6 +78,16 @@
 			path = XCodeMasquerade;
 			sourceTree = "<group>";
 		};
+		8E6247ED1DE78C9F7496C3F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6AC83C408FC5F7B35928DCD5 /* Pods-XCodeMasquerade.debug.xcconfig */,
+				84277BBB0CCA495A9645DE08 /* Pods-XCodeMasquerade.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -70,9 +95,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 301E0A452412BA01009F8CDF /* Build configuration list for PBXNativeTarget "XCodeMasquerade" */;
 			buildPhases = (
+				442DBF350D814118C3507928 /* [CP] Check Pods Manifest.lock */,
 				301E0A312412B9FE009F8CDF /* Sources */,
 				301E0A322412B9FE009F8CDF /* Frameworks */,
 				301E0A332412B9FE009F8CDF /* Resources */,
+				C19CEAD80A761741CC0C201F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,6 +154,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		442DBF350D814118C3507928 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XCodeMasquerade-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C19CEAD80A761741CC0C201F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XCodeMasquerade/Pods-XCodeMasquerade-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XCodeMasquerade/Pods-XCodeMasquerade-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XCodeMasquerade/Pods-XCodeMasquerade-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		301E0A312412B9FE009F8CDF /* Sources */ = {
@@ -267,6 +336,7 @@
 		};
 		301E0A462412BA01009F8CDF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AC83C408FC5F7B35928DCD5 /* Pods-XCodeMasquerade.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = XCodeMasquerade/XCodeMasquerade.entitlements;
@@ -288,6 +358,7 @@
 		};
 		301E0A472412BA01009F8CDF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84277BBB0CCA495A9645DE08 /* Pods-XCodeMasquerade.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = XCodeMasquerade/XCodeMasquerade.entitlements;
