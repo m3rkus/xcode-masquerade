@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "06B8A5D3-2204-490D-BADD-11A91A5AF868"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "40838180-CE5C-4326-94F4-FACB6DC47090"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "XCodeMasquerade/XCode/XcodeThemeConvertor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "getXCodeThemeFileURL(from:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2DAE5BC2-E941-49B9-A886-39E1394F4DB1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "XCodeMasquerade/XCode/XcodeThemeConvertor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "write(xcodeTeme:to:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "22F57F79-83BE-46F7-9ACD-CB6931D147A7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "XCodeMasquerade/XCode/XcodeThemeConvertor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "convert(_:then:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "22F57F79-83BE-46F7-9ACD-CB6931D147A7 - 30db69918bf04cb8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in XCodeMasquerade.XcodeThemeConvertor.convert(_: Swift.Array&lt;Foundation.URL&gt;, then: () -&gt; ()) -&gt; ()"
+                  moduleName = "XCodeMasquerade"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/roman/Documents/repo/XCodeMasquerade/XCodeMasquerade/XCode/XcodeThemeConvertor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "1271">
+               </Location>
+               <Location
+                  uuid = "22F57F79-83BE-46F7-9ACD-CB6931D147A7 - 30db69918bf04cb8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in XCodeMasquerade.XcodeThemeConvertor.convert(_: Swift.Array&lt;Foundation.URL&gt;, then: () -&gt; ()) -&gt; ()"
+                  moduleName = "XCodeMasquerade"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/roman/Documents/repo/XCodeMasquerade/XCodeMasquerade/XCode/XcodeThemeConvertor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "1310">
+               </Location>
+               <Location
+                  uuid = "22F57F79-83BE-46F7-9ACD-CB6931D147A7 - 30db69918bf04cb8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in XCodeMasquerade.XcodeThemeConvertor.convert(_: Swift.Array&lt;Foundation.URL&gt;, then: () -&gt; ()) -&gt; ()"
+                  moduleName = "XCodeMasquerade"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/roman/Documents/repo/XCodeMasquerade/XCodeMasquerade/XCode/XcodeThemeConvertor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "1634">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

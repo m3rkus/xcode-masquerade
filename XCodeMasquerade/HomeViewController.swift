@@ -19,8 +19,12 @@ final class HomeViewController: NSViewController {
     @IBOutlet private weak var conversionStatusLabel: NSTextField!
     @IBOutlet private weak var conversionProgressBar: NSProgressIndicator!
     
+    private let xcodeThemeConvertor = XcodeThemeConvertor()
+    private var fileURLs: [URL] = []
+    
     // MARK: - Lifecycle
     override func viewDidLoad() {
+        
         super.viewDidLoad()
         setupUI()
     }
@@ -38,6 +42,18 @@ final class HomeViewController: NSViewController {
         convertThemeButton.title = "Convert"
         conversionStatusLabel.stringValue = ""
         conversionProgressBar.isHidden = true
+        conversionProgressBar.isIndeterminate = true
+    }
+    
+    private func setProgressBar(isActive: Bool) {
+        
+        if isActive {
+            conversionProgressBar.startAnimation(self)
+            conversionProgressBar.isHidden = false
+        } else {
+            conversionProgressBar.stopAnimation(self)
+            conversionProgressBar.isHidden = true
+        }
     }
     
     // MARK: - Actions
@@ -50,18 +66,21 @@ final class HomeViewController: NSViewController {
         fileDialog.canChooseDirectories = true;
         fileDialog.canCreateDirectories = false;
         fileDialog.allowsMultipleSelection = true;
-        fileDialog.allowedFileTypes = ["itermcolors"];
+        fileDialog.allowedFileTypes = ["itermcolors", "plist"];
         
         guard fileDialog.runModal() == .OK else {
             // User clicked on "Cancel"
             return
         }
-        let fileURLs = fileDialog.urls
-        print("File URLs: ")
-        fileURLs.forEach { print($0.path) }
+        fileURLs = fileDialog.urls
     }
     
     @IBAction func tapConvertTheme(_ sender: NSButton) {
+        
+        setProgressBar(isActive: true)
+        xcodeThemeConvertor.convert(fileURLs, then: {
+            self.setProgressBar(isActive: false)
+        })
     }
 }
 

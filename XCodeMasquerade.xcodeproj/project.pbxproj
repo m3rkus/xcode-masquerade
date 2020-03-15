@@ -11,6 +11,18 @@
 		301E0A3B2412B9FE009F8CDF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301E0A3A2412B9FE009F8CDF /* HomeViewController.swift */; };
 		301E0A3D2412BA01009F8CDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 301E0A3C2412BA01009F8CDF /* Assets.xcassets */; };
 		301E0A402412BA01009F8CDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 301E0A3E2412BA01009F8CDF /* Main.storyboard */; };
+		301E0A49241421BA009F8CDF /* XcodeThemeConvertor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301E0A48241421BA009F8CDF /* XcodeThemeConvertor.swift */; };
+		301E0A4B24142233009F8CDF /* ITermConversionStrategy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301E0A4A24142233009F8CDF /* ITermConversionStrategy.swift */; };
+		301E0A4D241587DD009F8CDF /* Collection+SafeIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301E0A4C241587DD009F8CDF /* Collection+SafeIndex.swift */; };
+		3031B6E724196D46002EC264 /* IThermThemeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3031B6E624196D46002EC264 /* IThermThemeItem.swift */; };
+		3031B6E924196D58002EC264 /* IThermTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3031B6E824196D58002EC264 /* IThermTheme.swift */; };
+		3031B6EC24196DC3002EC264 /* XCodeTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3031B6EB24196DC3002EC264 /* XCodeTheme.swift */; };
+		30E3E5BC241BB11C00113090 /* PropertyListFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E3E5BB241BB11C00113090 /* PropertyListFileManager.swift */; };
+		30E3E5BE241BB54300113090 /* Result+VoidSuccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E3E5BD241BB54300113090 /* Result+VoidSuccess.swift */; };
+		30E3E5C0241BB97700113090 /* XCodeThemeConvertable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E3E5BF241BB97700113090 /* XCodeThemeConvertable.swift */; };
+		30E3E5C2241BC17500113090 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E3E5C1241BC17500113090 /* Font.swift */; };
+		30E3E5C4241C21A000113090 /* XCodeThemeSyntaxItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E3E5C3241C21A000113090 /* XCodeThemeSyntaxItems.swift */; };
+		30E3E5C6241C495A00113090 /* DispatchQueue+Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30E3E5C5241C495A00113090 /* DispatchQueue+Background.swift */; };
 		34FB0259ACD2B707509E05A4 /* Pods_XCodeMasquerade.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9F977B878DA1C5290738248 /* Pods_XCodeMasquerade.framework */; };
 /* End PBXBuildFile section */
 
@@ -22,6 +34,18 @@
 		301E0A3F2412BA01009F8CDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		301E0A412412BA01009F8CDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		301E0A422412BA01009F8CDF /* XCodeMasquerade.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XCodeMasquerade.entitlements; sourceTree = "<group>"; };
+		301E0A48241421BA009F8CDF /* XcodeThemeConvertor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeThemeConvertor.swift; sourceTree = "<group>"; };
+		301E0A4A24142233009F8CDF /* ITermConversionStrategy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITermConversionStrategy.swift; sourceTree = "<group>"; };
+		301E0A4C241587DD009F8CDF /* Collection+SafeIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+SafeIndex.swift"; sourceTree = "<group>"; };
+		3031B6E624196D46002EC264 /* IThermThemeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IThermThemeItem.swift; sourceTree = "<group>"; };
+		3031B6E824196D58002EC264 /* IThermTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IThermTheme.swift; sourceTree = "<group>"; };
+		3031B6EB24196DC3002EC264 /* XCodeTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCodeTheme.swift; sourceTree = "<group>"; };
+		30E3E5BB241BB11C00113090 /* PropertyListFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyListFileManager.swift; sourceTree = "<group>"; };
+		30E3E5BD241BB54300113090 /* Result+VoidSuccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Result+VoidSuccess.swift"; sourceTree = "<group>"; };
+		30E3E5BF241BB97700113090 /* XCodeThemeConvertable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCodeThemeConvertable.swift; sourceTree = "<group>"; };
+		30E3E5C1241BC17500113090 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		30E3E5C3241C21A000113090 /* XCodeThemeSyntaxItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCodeThemeSyntaxItems.swift; sourceTree = "<group>"; };
+		30E3E5C5241C495A00113090 /* DispatchQueue+Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+Background.swift"; sourceTree = "<group>"; };
 		6AC83C408FC5F7B35928DCD5 /* Pods-XCodeMasquerade.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCodeMasquerade.debug.xcconfig"; path = "Target Support Files/Pods-XCodeMasquerade/Pods-XCodeMasquerade.debug.xcconfig"; sourceTree = "<group>"; };
 		84277BBB0CCA495A9645DE08 /* Pods-XCodeMasquerade.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCodeMasquerade.release.xcconfig"; path = "Target Support Files/Pods-XCodeMasquerade/Pods-XCodeMasquerade.release.xcconfig"; sourceTree = "<group>"; };
 		E9F977B878DA1C5290738248 /* Pods_XCodeMasquerade.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XCodeMasquerade.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +92,9 @@
 		301E0A372412B9FE009F8CDF /* XCodeMasquerade */ = {
 			isa = PBXGroup;
 			children = (
+				30E3E5BA241BB00F00113090 /* Util */,
+				3031B6EA24196DAF002EC264 /* XCode */,
+				3031B6E524196CD0002EC264 /* ITerm */,
 				301E0A382412B9FE009F8CDF /* AppDelegate.swift */,
 				301E0A3A2412B9FE009F8CDF /* HomeViewController.swift */,
 				301E0A3C2412BA01009F8CDF /* Assets.xcassets */,
@@ -76,6 +103,39 @@
 				301E0A422412BA01009F8CDF /* XCodeMasquerade.entitlements */,
 			);
 			path = XCodeMasquerade;
+			sourceTree = "<group>";
+		};
+		3031B6E524196CD0002EC264 /* ITerm */ = {
+			isa = PBXGroup;
+			children = (
+				301E0A4A24142233009F8CDF /* ITermConversionStrategy.swift */,
+				3031B6E824196D58002EC264 /* IThermTheme.swift */,
+				3031B6E624196D46002EC264 /* IThermThemeItem.swift */,
+			);
+			path = ITerm;
+			sourceTree = "<group>";
+		};
+		3031B6EA24196DAF002EC264 /* XCode */ = {
+			isa = PBXGroup;
+			children = (
+				30E3E5BF241BB97700113090 /* XCodeThemeConvertable.swift */,
+				301E0A48241421BA009F8CDF /* XcodeThemeConvertor.swift */,
+				3031B6EB24196DC3002EC264 /* XCodeTheme.swift */,
+				30E3E5C3241C21A000113090 /* XCodeThemeSyntaxItems.swift */,
+			);
+			path = XCode;
+			sourceTree = "<group>";
+		};
+		30E3E5BA241BB00F00113090 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				30E3E5BB241BB11C00113090 /* PropertyListFileManager.swift */,
+				30E3E5BD241BB54300113090 /* Result+VoidSuccess.swift */,
+				301E0A4C241587DD009F8CDF /* Collection+SafeIndex.swift */,
+				30E3E5C5241C495A00113090 /* DispatchQueue+Background.swift */,
+				30E3E5C1241BC17500113090 /* Font.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 		8E6247ED1DE78C9F7496C3F1 /* Pods */ = {
@@ -201,8 +261,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30E3E5C0241BB97700113090 /* XCodeThemeConvertable.swift in Sources */,
+				30E3E5C6241C495A00113090 /* DispatchQueue+Background.swift in Sources */,
+				301E0A49241421BA009F8CDF /* XcodeThemeConvertor.swift in Sources */,
+				30E3E5C4241C21A000113090 /* XCodeThemeSyntaxItems.swift in Sources */,
+				3031B6EC24196DC3002EC264 /* XCodeTheme.swift in Sources */,
+				3031B6E924196D58002EC264 /* IThermTheme.swift in Sources */,
+				3031B6E724196D46002EC264 /* IThermThemeItem.swift in Sources */,
 				301E0A3B2412B9FE009F8CDF /* HomeViewController.swift in Sources */,
+				301E0A4D241587DD009F8CDF /* Collection+SafeIndex.swift in Sources */,
+				30E3E5C2241BC17500113090 /* Font.swift in Sources */,
+				30E3E5BE241BB54300113090 /* Result+VoidSuccess.swift in Sources */,
+				301E0A4B24142233009F8CDF /* ITermConversionStrategy.swift in Sources */,
 				301E0A392412B9FE009F8CDF /* AppDelegate.swift in Sources */,
+				30E3E5BC241BB11C00113090 /* PropertyListFileManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
